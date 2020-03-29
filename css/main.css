@@ -1,0 +1,41 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+    display: block;
+}
+
+input {
+    display: block;
+}
+
+nav a {
+    padding-left: 15px;
+}
+
+.nav-right {
+    padding: 0 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="submit"] {
+    display: inline;
+}

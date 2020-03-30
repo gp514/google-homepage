@@ -41,6 +41,19 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
 }
+
+.main p {
+    font-size: 13px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main a:visited {
+    color: #609;
+}
+
 #search-bar {
     display: block;
     width: 480px;
@@ -50,12 +63,25 @@ nav a:hover {
     margin-top: 35px;
 }
 input[type="submit"] {
+    -webkit-appearance: none;
     display: inline;
+    margin: 0 5px;
+    padding: 10px 15px;
+    font-family: arial;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border-radius: 4px;
+    border: none;
 }
 
 #search-bar:hover {
     box-shadow: 0 1px 6px 0px rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
+}
+
+#search-bar:focus {
+    outline: none;
 }
 
 footer {
@@ -97,9 +123,8 @@ footer div a:hover {
     justify-content: space-between;
 }
 
-/* .left-form {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: inline-block;
-} */
+.form-submit {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}

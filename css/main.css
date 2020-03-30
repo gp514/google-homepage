@@ -13,14 +13,6 @@ nav {
     justify-content: space-between;
 }
 
-.splash {
-    padding-top: 100px;
-    height: 92px;
-    width: 272px;
-    display: block;
-}
-
-
 nav a {
     padding-left: 15px;
     text-decoration: none;
@@ -38,6 +30,38 @@ nav a:hover {
     justify-content: space-between;
     padding: 0 30px;
     width: 200px;
+}
+
+nav a .fa-th:hover {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.account-icon {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #00579b;
+    border-radius: 50%;
+}
+
+.account-icon span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+.splash {
+    padding-top: 100px;
+    height: 92px;
+    width: 272px;
+    display: block;
 }
 
 .main {
@@ -58,6 +82,12 @@ nav a:hover {
     color: #609;
 }
 
+.form-submit {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 #search-bar {
     display: inline-block;
     width: 380px;
@@ -68,6 +98,17 @@ nav a:hover {
     padding: 0 50px;
     font-size: 16px;
     color: rgba(0,0,0,.87);
+}
+
+#search-bar:hover {
+    box-shadow: 0 1px 6px 0px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-bar:focus {
+    outline: none;
+    box-shadow: 0 1px 6px 0px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 
 input[type="submit"] {
@@ -87,17 +128,6 @@ input[type="submit"]:hover {
     color: rgba(0, 0, 0, 0.87);
     box-shadow: 0 1px 1px 0px rgba(32,33,36,0.10);
     border: 1px solid #c7c6c6;
-}
-
-#search-bar:hover {
-    box-shadow: 0 1px 6px 0px rgba(32,33,36,0.28);
-    border-color: rgba(223,225,229,0);
-}
-
-#search-bar:focus {
-    outline: none;
-    box-shadow: 0 1px 6px 0px rgba(32,33,36,0.28);
-    border-color: rgba(223,225,229,0);
 }
 
 footer {
@@ -139,12 +169,6 @@ footer div a:hover {
     justify-content: space-between;
 }
 
-.form-submit {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
 .fa-search {
     position: relative;
     color: #9AA0A6;
@@ -166,28 +190,4 @@ footer div a:hover {
 .fa-th {
     font-size: 18px;
     color: #000000B0;
-}
-
-nav a .fa-th:hover {
-    font-size: 18px;
-    color: black;
-    text-decoration: none;
-}
-
-.account-icon {
-    display: inline-block;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background-color: #00579b;
-    border-radius: 50%;
-}
-
-.account-icon span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 15px;
 }

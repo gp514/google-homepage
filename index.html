@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <title>Google</title>
+    <script src="https://kit.fontawesome.com/bd321affd4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -24,7 +25,11 @@
     <div class="main">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google homepage icon">
         <form action="#" method="POST">
-            <input id="search-bar" type="text" name="search-term">
+            <div id="search-bar-decorated">
+                <i class="fas fa-search"></i>
+                <input id="search-bar" type="text" name="search-term">
+                <i class="fas fa-microphone"></i>
+            </div>
             <div class="form-submit">
                 <input type="submit" name="search" value="Google Search">
                 <input type="submit" name="lucky" value="I'm Feeling Lucky">

@@ -33,7 +33,11 @@ nav a:hover {
 }
 
 .nav-right {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 0 30px;
+    width: 200px;
 }
 
 .main {
@@ -151,4 +155,39 @@ footer div a:hover {
     position: relative;
     color: #4285f4;
     right: 40px;
+}
+
+#selector {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.fa-th {
+    font-size: 18px;
+    color: #000000B0;
+}
+
+nav a .fa-th:hover {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.account-icon {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #00579b;
+    border-radius: 50%;
+}
+
+.account-icon span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
 }
